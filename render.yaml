@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: farmacia-frontend
+    env: node
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: development
+    buildFilter:
+      paths:
+        - package.json
+        - package-lock.json
+        - tsconfig.json
+        - next.config.ts
