@@ -1,5 +1,5 @@
 'use client';
-import { Medicamento } from '@/types';
+import { Medicamento } from '../types/index';
 import { Trash2, Calendar, Package, DollarSign, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
 
 interface Props {

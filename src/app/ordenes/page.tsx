@@ -1,9 +1,9 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { DetalleOrden } from '@/types';
+import { DetalleOrden } from '../../types/index';
 import Link from 'next/link';
 import { Plus, ClipboardList, Trash2, Package, TrendingUp, Hash, DollarSign, ShoppingBag } from 'lucide-react';
-import api from '@/lib/api';
+import api from '../../lib/api';
 import toast from 'react-hot-toast';
 
 export default function OrdenesPage() {

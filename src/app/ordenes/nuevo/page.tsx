@@ -1,8 +1,8 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import OrdenForm from '@/components/OrdenForm';
-import { DetalleOrden } from '@/types';
-import api from '@/lib/api';
+import OrdenForm from '../../../components/OrdenForm';
+import { DetalleOrden } from '../../../types/index';
+import api from '../../../lib/api';
 import toast from 'react-hot-toast';
 
 export default function NuevaOrden() {

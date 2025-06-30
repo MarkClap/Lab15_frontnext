@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { DetalleOrden } from '@/types';
+import { DetalleOrden } from '../types/index'; // Adjust the import path as necessary
 import { Save, X, ClipboardList, Cross } from 'lucide-react';
 
 interface Props {

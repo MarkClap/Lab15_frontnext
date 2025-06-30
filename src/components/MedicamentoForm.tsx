@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { Medicamento } from '@/types';
+import { Medicamento } from '../types/index'; // Adjust the import path as necessary
 import { Save, X, Pill, Cross } from 'lucide-react';
 
 interface Props {
